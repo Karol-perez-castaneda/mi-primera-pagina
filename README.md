@@ -132,7 +132,7 @@ El mundo de la computación y programación es más extensa de lo que de puede l
 
 # Bibliología
 
-Tutorial | Cómo Escribir un README desde Cero en GitHub
+Tutorial - Cómo Escribir un README desde Cero en GitHub
 
 Mauro
 
