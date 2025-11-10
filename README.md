@@ -101,8 +101,6 @@ Algunos de los lenguajes de programación más conocidos y usados son:
 - Ruby
 - Postscript
 
-Entre muchos otros.
-
 [![mejores-lenguajes-de-programacion-2018.jpg](https://i.postimg.cc/5tTmVtMW/mejores-lenguajes-de-programacion-2018.jpg)](https://postimg.cc/wt5N5gvw)
 
 > [!NOTE]
@@ -121,10 +119,12 @@ Estos valores o datos que puede tener una variable son:
 
 Ejemplo de asignación de un valor con Python
 
-> a = 16
-> id(a)
-> 
-
+```python
+k = 16
+id(k)
+mensaje = f "El valor de k es {k}"
+print(mensaje)
+```
 
 ## Reflexión Personal
 
