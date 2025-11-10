@@ -122,7 +122,7 @@ Ejemplo de asignación de un valor con Python
 ```python
 k = 16
 id(k)
-mensaje = f "El valor de k es {k}"
+mensaje = f"El valor de k es {k}"
 print(mensaje)
 ```
 
@@ -143,3 +143,5 @@ Diferencias entre sistemas operativos comerciales y de libre distribución
 Mtro. Fernando Omar Arciniega Martínez
 
 https://fernandoarciniega.com/diferencias-entre-sistemas-operativos-comerciales-y-de-libre-distribucion/
+
+### Esta evidencia se ha realizado ***<ins>sin el uso o asistencia de una AI</ins>***
