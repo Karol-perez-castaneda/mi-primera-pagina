@@ -148,4 +148,4 @@ Mtro. Fernando Omar Arciniega Martínez
 
 # Tareas y Ejercicios que he realizado
 
-[Implementando la libreria turtle desde cero](../tareas/MiTortuga.md)
+[Implementando la libreria turtle desde cero](.tareas/MiTortuga.md)
