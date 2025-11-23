@@ -1,4 +1,4 @@
-#  Hello World! S35 - Actividad de aprendizaje Tarea 01: Mi Primera pagina Web
+#  Hello World! Mi Primera pagina Web
 **Por:** Karol Liceth Perez Castañeda.
 
 **Docente:** Juan Camilo Macias Ramirez
@@ -145,3 +145,7 @@ Mtro. Fernando Omar Arciniega Martínez
 https://fernandoarciniega.com/diferencias-entre-sistemas-operativos-comerciales-y-de-libre-distribucion/
 
 ### Esta evidencia se ha realizado ***<ins>sin el uso o asistencia de una AI</ins>***
+
+# Tareas y Ejercicios que he realizado
+
+
