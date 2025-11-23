@@ -136,16 +136,16 @@ Tutorial - Cómo Escribir un README desde Cero en GitHub
 
 Mauro
 
-https://www.youtube.com/watch?v=aUbasIfag-E
+[https://www.youtube.com/watch?v=aUbasIfag-E](https://www.youtube.com/watch?v=aUbasIfag-E)
 
 Diferencias entre sistemas operativos comerciales y de libre distribución
 
 Mtro. Fernando Omar Arciniega Martínez
 
-https://fernandoarciniega.com/diferencias-entre-sistemas-operativos-comerciales-y-de-libre-distribucion/
+[https://fernandoarciniega.com/diferencias-entre-sistemas-operativos-comerciales-y-de-libre-distribucion/](https://fernandoarciniega.com/diferencias-entre-sistemas-operativos-comerciales-y-de-libre-distribucion/)
 
 ### Esta evidencia se ha realizado ***<ins>sin el uso o asistencia de una AI</ins>***
 
 # Tareas y Ejercicios que he realizado
 
-' [Implementando la libreria turtle desde cero] (./tareas/Mi Tortuga.md)
+[Implementando la libreria turtle desde cero](../tareas/MiTortuga.md)
