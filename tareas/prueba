@@ -1,4 +1,0 @@
-k = 18
-id(k)
-mensaje = f"El valor de k es {k}"
-print(mensaje)
