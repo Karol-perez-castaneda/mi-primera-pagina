@@ -178,3 +178,5 @@ Guía completa de Ciclos en Python (For y While) 🐍👨‍🏫👌
 Code & Chill
 
 [https://medium.com/@diego.coder/ciclos-en-python-for-y-while-20cbe73f7193](https://medium.com/@diego.coder/ciclos-en-python-for-y-while-20cbe73f7193)
+
+### Esta evidencia se ha realizado ***<ins>sin el uso o asistencia de una AI</ins>***
