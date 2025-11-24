@@ -317,7 +317,7 @@ En su base se usan los mismos valores antes establecidos y pasos pero con ligero
 
 - Apartir de escalon 3 se implementa el valor **espaciototal** donde se suman los pasos ya realizados hacia la derecha y se suman son los siguientes que se realizaran hacia esa misma direccion para asegurar la continuidad del recorrido hecho por la tortuga.
 
-Como resultado tendremos esta escalera hechha completamente con texto:
+Como resultado tendremos esta escalera hecha completamente con texto:
 
 <img width="199" height="219" alt="image" src="https://github.com/user-attachments/assets/23e7dac6-7793-4016-ac84-941d02abce6b" />
 
