@@ -330,4 +330,4 @@ Code & Chill
 
 [https://medium.com/@diego.coder/ciclos-en-python-for-y-while-20cbe73f7193](https://medium.com/@diego.coder/ciclos-en-python-for-y-while-20cbe73f7193)
 
-[Implementando la libreria turtle desde cero](.tareas/MiTortuga.md)
+[Implementando la libreria turtle desde cero](./tareas/MiTortuga.md)
