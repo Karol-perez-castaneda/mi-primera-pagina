@@ -148,4 +148,51 @@ Mtro. Fernando Omar Arciniega Martínez
 
 # Tareas y Ejercicios que he realizado
 
+## Implementando la Libreria Turtle desde Cero
+
+<img width="980" height="980" alt="image" src="https://github.com/user-attachments/assets/bb0c8323-ff86-4b52-a4b1-00a5e8bd4d13" />
+
+Como ejercio para aprender las funciones print e imput se trabajo y analizo la biblioteca turtle la cual se puede importar en python con un archivo de extension .py
+
+```python
+import turtle
+
+t = turtle.Turtle()   # Crea una tortuga
+t.forward(100)        # Avanza 100 unidades
+turtle.done()         # Mantiene la ventana abierta
+```
+
+Ya importada solo se tiene ingresar a la terminar y escribir
+
+```python
+python3 mi_tortuga.py
+```
+Para tener esta salida
+
+<img width="635" height="407" alt="image" src="https://github.com/user-attachments/assets/c9388382-dbec-4f41-b4fc-09a46d50c2eb" />
+
+Ya sabiendo esto se propusieron **4 Retos** para simular este funcionamiento con variables, funciones, condicionales y ciclos.
+
+### **Reto 1**
+
+En ese primer reto se dio el objetivo de recrear el movimiento de la tortuga únicamente con texto, usando funciones, print() y input()
+
+```python
+# Escalon 1
+cantidaddepasos1 = int (input("¿Cuantos pasos quieres que avance la tortuga hacia la derecha?"))
+trazoadelante1 = "-" * cantidaddepasos1 + ">"
+print (trazoadelante1) 
+```
+- Para definir cuantos pasos realizara la tortuga el sistema le pregunta al usuario cuantos dara la tortuga y el valor definido se guardara en el valor **cantidaddepasos1**
+- Con el valor anterior definido se realiza la funcion interna **trazoadelante1** en donde el simbolo **-** se multiplica por la cantidad de de pasos definidos en **cantidaddepasos1** y se le suma un **>** al final para representar el punto donde paro la tortuga.
+- Y al final se realiza la funcion de **print** para imprimir el resultado de la funcion **trazoadelante1**
+
+En este caso pondremos el valor 5 para que la tortuga avance 5 pasos, como resultados tendremos:
+
+<img width="920" height="172" alt="image" src="https://github.com/user-attachments/assets/12ca0015-0632-46d2-adf2-5469880409c7" />
+
+### **Reto 2**
+
+
+
 [Implementando la libreria turtle desde cero](.tareas/MiTortuga.md)
