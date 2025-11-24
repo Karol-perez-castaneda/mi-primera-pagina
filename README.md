@@ -206,7 +206,7 @@ while count <= cantidaddepasos2:
     count += 1
 print (Flecha)
 ```
-- Se le define los valores **Abajo** con el simbolo **|** y el valor **Flecha** con un **V**
+- Se le define los valores **Abajo** y el valor **Flecha** con un **V**
 - Para definir cuantos pasos realizara la tortuga hacia abajo el sistema le pregunta al usuario cuantos dara la tortuga y el valor definido se guardara en el valor **cantidaddepasos2**
 - Se establece un ciclo **While** para imprimir el valor **Abajo** por la cantidad de de pasos definidos en **cantidaddepasos2** para simular que esta bajando la tortuga.
 - Se imprime **Flecha** al final para representar el punto donde paro la tortuga.
@@ -260,8 +260,8 @@ print (flecha)
 En su base se usan los mismos valores antes establecidos y pasos a excepción de:
 
 - En el escalon 2 se define el valor **espacio** para definir cuantos pasos ya dio hacia la derecha la tortuga para asegurar que cuando gire y camine hacia abajo si continue desde donde habia quedado antes multiplicando un espacio en blando " " por la cantidad ya dados hacia la derecha.
-- Se define el valor **linea** para asegurarse que las lineas continue desde donde habia quedado antes la tortuga sumando ya los espacios en blanco definidos en el valor **espacio** y sumando el simbolo **|**.
-- Se define el valor **flecha** para cumplir con la misma funcion que el anterior valor pero en su lugar de por **|** es para poner una **V** al final para representar el punto donde paro la tortuga.
+- Se define el valor **linea** para asegurarse que las lineas continue desde donde habia quedado antes la tortuga sumando ya los espacios en blanco definidos en el valor **espacio** y sumando el simbolo **Abajo**.
+- Se define el valor **flecha** para cumplir con la misma funcion que el anterior valor pero en su lugar de **Abajo** es para poner una **V** al final para representar el punto donde paro la tortuga.
 - Se establece un ciclo **While** para imprimir el valor **linea** por la cantidad de de pasos definidos en **cantidaddepasos2** para simular que esta bajando la tortuga.
 
 Como resultados tendremos:
