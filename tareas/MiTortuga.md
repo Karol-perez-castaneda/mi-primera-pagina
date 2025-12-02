@@ -67,113 +67,110 @@ En este caso pondremos el valor 2 para que la tortuga avance 2 pasos, como resul
 En este tercer reto se dio el objetivo de hacer girar la tortuga con lo ya trabajado.
 
 ```python
-import turtle
-t = turtle.Turtle()
-t.forward(100)
-t.right(90)         
-t.forward(100)
-turtle.done()
-```
-Para tener la salida en forma de L.
+espacio= 0
 
-<img width="964" height="832" alt="image" src="https://github.com/user-attachments/assets/39e92615-54e3-4c23-a0e0-8ca57764f83e" />
+# Escalon 1
+cantidaddepasos1 = 5
+trazoadelante1 = "-" * cantidaddepasos1 + ">"
+global espacio
+espacio = cantidaddepasos1
+print (trazoadelante1) 
+
+# Escalon 2
+pasos_abajo = 4
+espacio = " " * cantidaddepasos1
+for i in range (pasos_abajo):
+            camino_abajo = espacio + "|\n"
+            print(camino_abajo, end='')
+print( " " * cantidaddepasos1 + "V")
+
+
+```
+En su base se usan los mismos valores antes establecidos y pasos a excepción de:
+
+- Se define el valor **espacio** para definir cuantos pasos ya dio hacia la derecha la tortuga y dandele el balor de **global** para que vaya acumulando la cantidad, para asegurar que cuando gire y camine hacia abajo si continue desde donde habia quedado antes multiplicando un espacio en blando " " por la cantidad ya dados hacia la derecha.
+
+En este caso pondremos el valores 5 y 4 para que la tortuga avance 5 pasos a delante y 4 hacia abajo, como resultados tendremos:
+
+<img width="885" height="509" alt="image" src="https://github.com/user-attachments/assets/c90d3669-b015-4d7b-ad21-af38bee187a3" />
+
 
 ### **Reto 4**
 
 En este cuarto reto se dio el objetivo de usar funciones para representar los movimientos antes vistos con texto.
 
 ```python
+espacio= 0
+
 # Escalon 1
-adelante = "-"
-cantidaddepasos1 = 5
-espacio = adelante * cantidaddepasos1
-trazoadelante1 = espacio + ">"
-print (trazoadelante1) 
+def adelante(cantidaddepasos1):
+    trazoadelante1 = "-" * cantidaddepasos1 + ">"
+    global espacio
+    espacio = cantidaddepasos1
+    print (trazoadelante1) 
 
 # Escalon 2
-Abajo = "|"
-cantidaddepasos2 = 3
-espacio = " " * cantidaddepasos1
-linea = espacio + Abajo
-flecha = espacio  + "V"
-count = 1
-while count <= cantidaddepasos2:
-    print(linea)
-    count += 1
-print (flecha)
+def abajo(cantidaddepasos2):
+    pasos_abajo = cantidaddepasos2
+    espacio_ = " " * espacio
+    for i in range (pasos_abajo):
+            camino_abajo = espacio_ + "|\n"
+            print(camino_abajo, end='')
+    print( " " * espacio + "V")
+
 ```
 
-En su base se usan los mismos valores antes establecidos y pasos a excepción de:
+Ya las lineas ya escritas se les da la **funcion** para que se pueda ejecutar con una interfaz de usuario:
 
-- En el escalon 2 se define el valor **espacio** para definir cuantos pasos ya dio hacia la derecha la tortuga para asegurar que cuando gire y camine hacia abajo si continue desde donde habia quedado antes multiplicando un espacio en blando " " por la cantidad ya dados hacia la derecha.
-- Se define el valor **linea** para asegurarse que las lineas continue desde donde habia quedado antes la tortuga sumando ya los espacios en blanco definidos en el valor **espacio** y sumando el simbolo **Abajo**.
-- Se define el valor **flecha** para cumplir con la misma funcion que el anterior valor pero en su lugar de **Abajo** es para poner una **V** al final para representar el punto donde paro la tortuga.
-- Se establece un ciclo **While** para imprimir el valor **linea** por la cantidad de de pasos definidos en **cantidaddepasos2** para simular que esta bajando la tortuga.
+```python
+adelante(5)
+abajo(5)
+```
 
 Como resultados tendremos:
 
-<img width="922" height="491" alt="image" src="https://github.com/user-attachments/assets/3a63625f-9e01-4260-9870-f9d0f52356b4" />
+<img width="885" height="243" alt="image" src="https://github.com/user-attachments/assets/e336a7fc-0b0c-4894-b821-b1a05b1bf5a4" />
+
 
 ### **Reto 5**
 
 En este quinto reto se dio el objetivo de hacer que la tortuga baje en forma de escalera en el que cada escalón debe conservar la posición horizontal acumulada y dibujar correctamente tanto el tramo horizontal como el vertical.
 
 ```python
-# Escalon 1
-adelante = "-"
-cantidaddepasos1 = 5
-espacio = adelante * cantidaddepasos1
-trazoadelante1 = espacio + ">"
-print (trazoadelante1) 
+espacio= 0
 
-# Escalon 2
-Abajo = "|"
-cantidaddepasos2 = 3
-espacio = " " * cantidaddepasos1
-linea = espacio + Abajo
-flecha = espacio  + "V"
-count = 1
-while count <= cantidaddepasos2:
-    print(linea)
-    count += 1
-print (flecha)
+def adelante(pasos_adelante):
+    global espacio
+    print (espacio * " " + "-" * pasos_adelante + ">")
+    espacio = espacio + pasos_adelante
 
-# Escalon 3
-adelante = "-"
-cantidaddepasos3 = 5
-espaciototal = " " * cantidaddepasos1
-espacio = adelante * cantidaddepasos3
-trazoadelante3 = espaciototal + espacio + ">"
-print (trazoadelante3) 
-
-# Escalon 4
-Abajo = "|"
-cantidaddepasos4 = 3
-espaciototal = cantidaddepasos1 + cantidaddepasos3
-espacio = " " * espaciototal
-linea = espacio + Abajo
-flecha = espacio  + "V"
-count = 1
-while count <= cantidaddepasos4:
-    print(linea)
-    count += 1
-print (flecha)
+def abajo (pasos_abajo):
+    for i in range (pasos_abajo):
+                camino_abajo = " " * espacio + "|\n"
+                print(camino_abajo, end='')
+    print(" " * espacio + "V")
 ```
 En su base se usan los mismos valores antes establecidos y pasos pero con ligeros cambios para que haya continuidad, se resalta el cambio:
 
-- Apartir de escalon 3 se implementa el valor **espaciototal** donde se suman los pasos ya realizados hacia la derecha y se suman son los siguientes que se realizaran hacia esa misma direccion para asegurar la continuidad del recorrido hecho por la tortuga.
+- Se modifica la **función** abajo para que tome en cuenta los pasos ya dados por el mismo valor y el de adelante y si poder continuar la escalera en siguientes escalones.
+
+Ya con lo hecho solo se tiene que poner los valores a travez de la interfaz de usuario
+
+```python
+adelante(6)
+abajo(3)
+
+adelante(5)
+abajo(4)
+
+adelante(7)
+abajo(3)
+
+```
 
 Como resultado tendremos esta escalera hecha completamente con texto:
 
-<img width="199" height="219" alt="image" src="https://github.com/user-attachments/assets/23e7dac6-7793-4016-ac84-941d02abce6b" />
+<img width="260" height="327" alt="image" src="https://github.com/user-attachments/assets/61b93273-3b5c-4769-8242-49ea37e30337" />
 
-
-# Bibliologia
-
-Guía completa de Ciclos en Python (For y While) 🐍👨‍🏫👌
-
-Code & Chill
-
-[https://medium.com/@diego.coder/ciclos-en-python-for-y-while-20cbe73f7193](https://medium.com/@diego.coder/ciclos-en-python-for-y-while-20cbe73f7193)
 
 ### Esta evidencia se ha realizado ***<ins>sin el uso o asistencia de una AI</ins>***
