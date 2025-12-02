@@ -1,5 +1,5 @@
 # Implementando la Libreria Turtle desde Cero
-<img width="980" height="980" alt="image" src="https://github.com/user-attachments/assets/bb0c8323-ff86-4b52-a4b1-00a5e8bd4d13" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bb0c8323-ff86-4b52-a4b1-00a5e8bd4d13" />
 
 Como ejercio para aprender las funciones print e imput se trabajo y analizo la biblioteca turtle la cual se puede importar en python con un archivo de extension .py
 
@@ -46,28 +46,25 @@ En este segundo reto se dio el objetivo de crea el rastro de la tortuga moviénd
 
 ```python
 # Escalon 2
-Abajo = "|"
-Flecha = "V"
-cantidaddepasos2 = int (input("¿Cuantos pasos quieres que avance la tortuga hacia abajo?"))
-count = 1
-while count <= cantidaddepasos2:
-    print(Abajo)
-    count += 1
-print (Flecha)
+pasos_abajo = int (input("¿Cuantos pasos quieres que avance la tortuga hacia abajo?"))
+cantidaddepasos2 = pasos_abajo
+for i in range (cantidaddepasos2):
+            print("|\n", end='')
+print("V")
 ```
-- Se le define los valores **Abajo** y el valor **Flecha** con un **V**
+
 - Para definir cuantos pasos realizara la tortuga hacia abajo el sistema le pregunta al usuario cuantos dara la tortuga y el valor definido se guardara en el valor **cantidaddepasos2**
-- Se establece un ciclo **While** para imprimir el valor **Abajo** por la cantidad de de pasos definidos en **cantidaddepasos2** para simular que esta bajando la tortuga.
+- Se establece un ciclo **range** para imprimir la cantidad de de pasos definidos en **cantidaddepasos2** para simular que esta bajando la tortuga.
 - Se imprime **Flecha** al final para representar el punto donde paro la tortuga.
 
 En este caso pondremos el valor 2 para que la tortuga avance 2 pasos, como resultados tendremos:
 
+<img width="887" height="250" alt="image" src="https://github.com/user-attachments/assets/b6388409-c6a9-4c0a-b8f6-05c0d9a27439" />
 
-<img width="886" height="323" alt="image" src="https://github.com/user-attachments/assets/e45b1c20-ea3c-4a19-bead-c3e6c66c1303" />
 
 ### **Reto 3**
 
-En este tercer reto se dio el objetivo de hacer girar la tortuga en la bibloteca Turtle.
+En este tercer reto se dio el objetivo de hacer girar la tortuga con lo ya trabajado.
 
 ```python
 import turtle
