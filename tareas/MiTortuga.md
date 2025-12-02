@@ -157,12 +157,15 @@ En su base se usan los mismos valores antes establecidos y pasos pero con ligero
 Ya con lo hecho solo se tiene que poner los valores a travez de la interfaz de usuario
 
 ```python
+#Escalon 1
 adelante(6)
 abajo(3)
 
+#Escalon 2
 adelante(5)
 abajo(4)
 
+#Escalon 3
 adelante(7)
 abajo(3)
 
