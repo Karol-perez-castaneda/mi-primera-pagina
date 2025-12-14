@@ -11,4 +11,4 @@ En esta entrada web podran ver los enlaces y directorios de mis proyectos y avan
 
 [Implementando la libreria turtle desde cero](./tareas/MiTortuga.md)
 
-[Encapsulando turtle](./tareas/MiTortuga.md)
+[Encapsulando turtle](./tareas/TareaMini-Turtle.md)
