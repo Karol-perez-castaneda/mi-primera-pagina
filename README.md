@@ -1,6 +1,6 @@
 #  Hello World! Mi Primera pagina Web
 ¡Hola todos! 
-Soy Karol Liceth Perez Castañeda, vivo en Apartadó, Antioquia, amo los videojuegos y la computación y actualmenten estoy cursonado **Tecnologia en desarrollo de Sotfware**
+Soy Karol Liceth Perez Castañeda, vivo en Apartadó, Antioquia, amo los videojuegos y la computación y actualmenten estoy cursonado **Tecnologia en desarrollo de Software**
 
 En esta entrada web podran ver los enlaces y directorios de mis proyectos y avances documentados que he realizado para visualizar mi evolución en esta apasiona carrera la cual estoy cursando actualmente.
 
